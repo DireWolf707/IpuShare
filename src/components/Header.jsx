@@ -1,6 +1,6 @@
-const Header = () => {
+const Header = ({setDash}) => {
   return <div className="bg-indigo-700 p-4 rounded-b-md">
-    <a className="font-bold font-serif text-3xl text-cyan-100" href="/">IpuShare</a>
+    <button onClick={setDash} className="font-bold font-serif text-3xl text-cyan-100" href="/">IpuShare</button>
   </div>
 }
 
